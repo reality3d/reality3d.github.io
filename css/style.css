@@ -1,0 +1,101 @@
+body 
+{
+   font-family:  'Trebuchet MS', Verdana, Arial;
+   font-size:14px;
+   margin: 0;
+   padding: 0;
+   background-color: #161616;
+   background:url(../img/back_dark.png);
+}
+
+a
+{
+ font-weight: bold;
+}
+
+a:link, a:visited, a:active	
+{
+ color: #7B0C0C;
+ text-decoration:none; 
+ font-weight: bold;
+} 
+
+a:hover 
+{
+   color:#416470;
+}
+
+h1 
+{
+   color: #7B0C0C;
+}
+
+.container strong
+{
+   color:#222;
+}
+
+.container
+{
+   max-width: 660px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   text-align: justify;
+   border-width: 2px;
+   border-style: solid;
+   border-color: #000;/*cbc6b7;*/
+   background-color: #e2e2de;
+   margin-right: auto;
+   margin-left: auto;
+   padding-left: 25px;
+   padding-right: 25px;
+   padding-bottom: 25px;  
+   -moz-box-shadow: 5px 5px 4px #100;
+   -webkit-box-shadow: 5px 5px 4px #100;
+   box-shadow: 5px 5px 4px #100;
+}
+
+#name
+{
+   border: none;
+   font-weight: normal;
+   font-family:  'Trebuchet MS', Verdana, Arial;
+   font-size:40px;
+   letter-spacing: 0.35em;
+   text-align: center;
+   word-spacing: 0.5em;
+   color: #fff;
+   text-shadow: 5px 1px 2px #111;
+}
+
+#main 
+{
+   margin-bottom: 50px;
+   margin-top: 25px;
+}
+
+#main * li {
+   list-style-image: url(../img/arrow.png);
+   margin-top: 1px;
+}
+
+.cabecera
+{
+   font-size: 1.75em;
+   font-weight: normal;
+}
+
+#menu {
+   float:right;
+   width: 160px;
+   border-left: 1px solid #416470;
+   padding-left: 10px;
+   margin-top:0px;
+}
+
+.fechas
+{
+   color: #7B0C0C;
+   font-style: italic;
+   font-weight: bold;
+}
