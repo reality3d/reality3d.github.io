@@ -93,6 +93,29 @@ h1
    font-weight: normal;
 }
 
+.job_position
+{
+   font-size: 1.20em;
+   font-weight: normal;
+   background-color: #fff;  
+   margin-left: -35px;
+   margin-right: -25px;
+   padding-left: 20px;
+   padding-right: 0px;   
+
+   -moz-border-radius: 25px;
+   -webkit-border-radius: 25px; 
+   border-radius: 25px; 
+
+   -moz-border-top-right-radius: 0px;   
+   -webkit-border-top-right-radius: 0px;   
+   border-border-top-right-radius: 0px;   
+
+   -moz-border-bottom-right-radius: 0px;   
+   -webkit-border-bottom-right-radius: 0px;   
+   border-border-bottom-right-radius: 0px;   
+}
+
 #menu {
    float:right;
    width: 160px;
