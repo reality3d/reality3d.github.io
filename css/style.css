@@ -86,9 +86,15 @@ h1
    margin-top: 25px;
 }
 
+#main * li::before {
+   content: "\27ab";
+   margin-right: 0.5em;
+   font-size: 0.9em;
+}
+
 #main * li {
-   list-style-image: url(../img/arrow.png);
-   margin-top: 1px;
+   margin-top: 0.7em;
+   list-style: none;
 }
 
 .header
