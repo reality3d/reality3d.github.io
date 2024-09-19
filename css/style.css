@@ -81,13 +81,24 @@ img
    font-size: 1.75em;
 }
 
+.job_position_header {
+   font-size: 1.3em;
+   background-color: #fff;
+   color: #0066cc;
+   padding-left: 1.0em;
+   margin-top: 1.3em;
+}
+
+.job_company_desc {
+   padding-left: 1.5em;
+   padding-right: 2em;
+}
+
 .job_position
 {
-   font-size: 1.0em;
-   background-color: #fff;  
-   margin-top: 5%;
-   padding-left: 2em;
-   padding-right: 2em;
+   background-color: #f0f0f0;
+   padding-left: 1.5em;
+   margin-bottom: 0.25em;
 }
 
 .content {
@@ -96,9 +107,11 @@ img
 }
 
 .job_content {
-   padding-left: 2em;
+   margin-left: 1.5em;
    padding-right: 2em;
-}
+
+ }
+ 
 
 #menu {  
    float:right;
