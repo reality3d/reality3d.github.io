@@ -85,19 +85,19 @@ img
    font-size: 1.3em;
    background-color: #fff;
    color: #0066cc;
-   padding-left: 1.0em;
+   padding-left: 1.35em;
    margin-top: 1.3em;
 }
 
 .job_company_desc {
-   padding-left: 1.5em;
+   padding-left: 1.75em;
    padding-right: 2em;
 }
 
 .job_position
 {
    background-color: #f0f0f0;
-   padding-left: 1.5em;
+   padding-left: 1.75em;
    margin-bottom: 0.25em;
 }
 
@@ -107,7 +107,7 @@ img
 }
 
 .job_content {
-   margin-left: 1.5em;
+   margin-left: 1.75em;
    padding-right: 2em;
 
  }
