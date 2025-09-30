@@ -7,6 +7,14 @@ body
    background-color: #d7d7d7;
 }
 
+.summaryText { 
+   font-size: 1.75em;
+}
+
+.email {
+   display: none;
+}
+
 a
 {
  font-weight: bold; 
@@ -76,6 +84,11 @@ img
    list-style: square;
 }
 
+#professional
+{
+   padding-left: 1em;
+}
+
 .header
 {
    font-size: 1.75em;
@@ -109,7 +122,6 @@ img
 .job_content {
    margin-left: 1.75em;
    padding-right: 2em;
-
  }
  
 
@@ -124,4 +136,145 @@ img
 .dates
 {
    color: #215888;
+}
+
+
+@media print {
+  body {
+   padding-left: 1cm;
+   padding-right: 1cm;
+   background-color: #ffffff;
+   zoom: 0.775;
+  }
+
+   a
+   {
+   font-weight: bold; 
+   }
+
+   a:link, a:visited, a:active	
+   {
+   color: #215888;
+   text-decoration:none; 
+   font-weight: bold; 
+   } 
+
+   a:hover 
+   {
+      color:#ff7620;
+   }
+
+   img
+   {
+   border:0px;
+   }
+
+  .email {
+   display: block;
+   text-align:center;
+   }
+
+   .content {
+      padding-left: 0em;
+      padding-right: 0em;
+   }
+
+   .container strong
+   {
+      font-weight: 400;
+   }
+
+   .summaryText { 
+      display: none;
+   }
+
+   .container
+   {
+      max-width: 50em;
+      margin-top: 0em;
+      margin-bottom: 0em;
+      text-align: justify;
+      border-width: 0px;
+      border-style: none;
+      margin-right: auto;
+      margin-left: auto;
+      border-radius: 0em; 
+      background-color: #ffffff;
+      padding-bottom: 0.5em;  
+   }
+
+   .header 
+   {
+      font-size: 1.25em;
+      font-weight: 600;
+      margin-top: -0.5em;
+      margin-bottom: -0.5em;
+   }
+
+   #name
+   {
+      font-size: 2.75em;
+      text-align: center;
+      color: #000;
+      margin-bottom: -0.25em;
+   }
+
+   #main 
+   {
+      margin-bottom: 50px;
+      margin-top: 25px;
+   }
+
+   #main * li {
+      margin-top: 0.25em;
+      list-style: square;
+   }
+
+   #promotion
+   {
+      display: none;
+      align-items: center;
+      float:right;   
+   }
+
+   #professional
+   {
+      padding-left: 0em;
+   }
+
+   .job_position_header {
+      font-size: 1.3em;
+      color: #0066cc;
+      margin-top: 1.3em;
+      padding-left: 0.0em;
+      border-bottom: 1px solid #000000;
+   }
+
+   .job_company_desc {
+      padding-right: 0em;
+      padding-left: 0.0em;
+   }
+
+   .job_position
+   {
+      margin-bottom: 0.25em;
+      padding-left: 0.0em;
+   }
+
+   .job_content {
+      margin-left: 0em;
+   }
+
+   #menu {  
+      float:right;
+      width: 160px;
+      border-left: 1px solid #416470;
+      padding-left: 10px;
+      margin-top:0px;
+   }
+
+   .dates
+   {
+      color: #215888;
+   }
 }
